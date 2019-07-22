@@ -18,10 +18,6 @@ function App() {
         <Route path="/edit/:id" component={EditExercise} />
         <Route path="/create" component={CreateExercise} />
         <Route path="/user" component={CreateUser} />
-
-        <div className="container">
-          Exercise Tracker App
-        </div>
       </div>
     </Router>
     
